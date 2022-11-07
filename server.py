@@ -10,7 +10,7 @@ def initServer():
   server = smtplib.SMTP(host="smtp.gmail.com",port=587)
   server.ehlo()
   server.starttls()
-  server.login("amrita.notification@gmail.com","mqqnqohxsefhxdse")
+  server.login("USER","PASSWORD")
   return server
 
 def initMessageHeader():
