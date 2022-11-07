@@ -1,1 +1,2 @@
 Python code to send automated mail to remind faculty about exam duty when loaded with csv file on Examination Duties
+The python code uses SMTP library to send email and pandas library to create Data Frame
